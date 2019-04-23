@@ -4,13 +4,13 @@
   
     <div class="word-list-features-wraper">
 
-       <?php $loop = CFS()->get('word_list'); foreach ($loop as $row) : ?>
-         <div class="word-list">
-            <h2><?php echo $row['vocab']; ?></h2>
+       <?php $loop = CFS()->get('vocabulary'); foreach ($loop as $row) : ?>
+         <div class="vocabulary">
+            <h2><?php echo $row['word']; ?></h2>
                <p><?php echo $row['napa']; ?></p>
-               <audio src="<?php echo $row['audio'];?>" controls></audio>
-               <p><?php echo $row['defin']; ?></p>
-               <p><?php echo $row['usage']; ?></p>
+               <audio class="vocabulary-audio" src="<?php echo $row['audio'];?>" controls></audio>
+               <p class='vocabulary-defi'><?php echo $row['definition']; ?></p>
+               <p class="vocabulary-usage"><?php echo $row['usage']; ?></p>
               <hr>
          </div>        
           <?php endforeach; ?>

@@ -1,0 +1,36 @@
+{
+  "name": "en",
+  "version": "1.0.0",
+  "description": "DOM EN for english ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://xufelixu.github.io/En/"
+  },
+  "author": "FX",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "browser-sync": "^2.26.4",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-prettyerror": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.1.7",
+    "install": "^0.12.2",
+    "node-sass": "^4.11.0",
+    "npm": "^6.9.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
